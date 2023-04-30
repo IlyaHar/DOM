@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.button {
+    margin-top: 5%;
+    background: silver;
+    cursor: pointer;
+    background: silver;
+}
+
+.button:hover {
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+}
+
+input {
+    padding: 3%;
+    border: silver solid;
+    outline: none;
+    border-radius: 5px;
+}
+
+label {
+    margin: 2%;
+}
+
+.color::placeholder {
+    color: red;
+}
